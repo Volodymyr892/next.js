@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, Formik } from 'formik';
 import LogoUploader from '@/app/components/logo-uploader';
 import InputField from '@/app/components/input-field';
+import Button from './button'
 
 export type CompanyFieldValues ={
    name: string;
@@ -56,7 +57,7 @@ export default function CompanyForm({onSubmit}: CompanyFormProps) {
             name="decription"/>
         </div>
         </div>
-        <button type="submit">Add company</button>
+        <Button type="submit">Add company</Button>
       </Form>
     </Formik>
   );

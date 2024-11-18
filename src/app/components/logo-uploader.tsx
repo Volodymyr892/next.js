@@ -11,7 +11,7 @@ extends  Omit<React.ImgHTMLAttributes<HTMLInputElement>, 'type'>{
 
 export default function LogoUploader({label, placeholder, id, ...rest}: LogoUploaderProps) {
   return (
-    <div>
+    <div className="flex gap-10 mb-3" >
       {label &&
         (<p className="text-base color-gray-900 ">{label}</p>
         )}
