@@ -39,7 +39,7 @@ export default function CompanyRow({
         <StatusLabel status={status}>{labelByStatus[status]}</StatusLabel>
       </td>
       <td>
-        <div>
+        <div  className="inline-flex items-center gap-1">
           <Image
             width={16}
             height={16}

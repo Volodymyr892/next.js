@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export interface SearchInputProps
 extends React.InputHTMLAttributes<HTMLInputElement> {
-  onSearchClick?: React.MouseEventHandler<HTMLButtonElementElement>;
+  onSearchClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 export default function SearchInput({ onSearchClick, ...rest}:SearchInputProps) {
