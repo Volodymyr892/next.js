@@ -1,5 +1,5 @@
 export const getSummaryStats = ()=>{
-  return Promise.reject({
+  return Promise.resolve({
     promotions: 427,
     categories: 8,
     newCompanies:28,
